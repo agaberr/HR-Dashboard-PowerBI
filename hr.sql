@@ -37,11 +37,6 @@ END;
 ALTER TABLE hr
 MODIFY COLUMN birthdate DATE;
 
--- UPDATE hr
--- SET termdate = '0000-00-00'
--- WHERE termdate IS NULL OR termdate = '';
-
-
 ALTER TABLE hr ADD COLUMN age INT;
 
 UPDATE hr
